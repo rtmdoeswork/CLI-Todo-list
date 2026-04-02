@@ -57,7 +57,7 @@ def Remove_Tasks(all_tasks, file_path):
 def main():
     status = "LAST INPUT WAS INVALID"
     running = True
-    file_path = "C:/Users/PCBBD/Desktop/testdir/CLI_Todo.json"
+    file_path = "PUT YOUR FILE PATH HERE"
     try:
         with open(file_path, 'r') as file:
             all_tasks = json.load(file)
